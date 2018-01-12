@@ -1,2 +1,3 @@
-# ir_remote_indoware
-Remote Library for Indo-Ware Remote
+# Library untuk mengakses remote Indoware
+
+Sebelum nenggunakan library ini, harus mengunduh terlebih dahulu library dari <a href="https://github.com/cyborg5/IRLib2">IRLib2</a>
