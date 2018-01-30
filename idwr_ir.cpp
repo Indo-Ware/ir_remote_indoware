@@ -46,6 +46,10 @@ char baca_data_remot() {
   uint8_t data_remot[5];
   int data_decode;
   
+  for(x=0;x<101;x++){
+	  timestamp[x]=0;
+  }
+	
   for (i = 3; i < recvGlobal.decodeLength; i++) {
     Extent += (interval = recvGlobal.decodeBuffer[i]);
     if (i % 2) {
